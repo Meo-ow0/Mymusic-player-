@@ -1,5 +1,6 @@
 🎀 Welcome to My Music Station!
-Hey there! Thanks for stopping by. This is my little digital workspace—a project I built to keep my music, my notes, and my aesthetic all in one place. It’s basically my "cozy corner" on the web.
+
+Hey there! Thanks for stopping by. This is my little digital workspace a project I built to keep my music, my notes, and my aesthetic all in one place. It’s basically my "cozy corner" on the web.
 ୨୧ What's inside?
 I designed this to be simple and sweet:
 
