@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Test Page</h1>
+    <input type="file" id="test-input">
+    <img id="test-img" width="200">
+    <script>
+        document.getElementById('test-input').addEventListener('change', (e) => {
+            const reader = new FileReader();
+            reader.onload = (event) => document.getElementById('test-img').src = event.target.result;
+            reader.readAsDataURL(e.target.files[0]);
+        });
+    </script>
+</body>
+</html>

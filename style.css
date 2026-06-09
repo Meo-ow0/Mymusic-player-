@@ -1,0 +1,109 @@
+#banner-preview { 
+    display: block; 
+    width: 100%; 
+    margin-top: 10px; 
+    border: 1px solid #edaecb; 
+}
+
+
+
+
+body {
+    background-color: #fce6f0 !important;
+}
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: sans-serif;
+    /* Paste your clean link here */
+    background-image: url('https://ibb.co/4w4mCGwZ');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #fce6f0;
+}
+
+/* --- DESKTOP LAYOUT --- */
+.desktop { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 20px; 
+}
+
+/* --- WINDOWS --- */
+.window { 
+    background: white; 
+    border: 2px solid #edaecb; 
+    box-shadow: 6px 6px 0px #edaecb; 
+    width: 300px; 
+    min-height: 100px;
+    padding: 10px;
+}
+
+.title-bar { 
+    background: #edaecb; 
+    color: white; 
+    padding: 5px; 
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.content { padding: 10px; }
+
+/* --- UI ELEMENTS --- */
+textarea { width: 100%; height: 100px; resize: none; border: 1px solid #edaecb; }
+
+button {
+    background: #fff;
+    border: 2px solid #edaecb;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 2px 0px #edaecb;
+    transition: transform 0.1s;
+}
+
+button:active {
+    transform: translate(2px, 2px);
+    box-shadow: none;
+}
+
+#status-display {
+    background: #fce6f0;
+    padding: 10px;
+    border: 1px inset #edaecb;
+    font-family: monospace;
+    font-size: 12px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* --- PLAYLIST & IMAGES --- */
+#playlist { list-style: none; padding: 0; color: #edaecb; font-size: 14px; cursor: pointer; }
+#banner-preview { display: block; width: 100%; margin-top: 10px; border: 1px solid #edaecb; }
+
+/* --- TASKBAR --- */
+.taskbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #edaecb;
+    color: white;
+    padding: 10px;
+    font-family: monospace;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-weight: bold;
+    z-index: 1000; /* Keeps it on top of windows */
+}

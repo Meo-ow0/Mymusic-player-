@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="desktop">
+        <div class="window">
+            <div class="title-bar">🎀 Music Station 🎀</div>
+            <div class="content">
+                <input type="file" id="art-input" accept="image/*">
+                <img id="banner-preview" src="" alt="Banner">
+                <ul id="playlist">
+                    <li data-src="songs/song1.mp3">1. Song One</li>
+                    <li data-src="songs/song2.mp3">2. Song Two</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="window">
+            <div class="title-bar">🎵 Controls</div>
+            <div class="content">
+                <div id="status-display">No song playing</div>
+                <button id="play-btn">▶ Play</button>
+                <button id="loop-btn">Loop: OFF</button>
+                <button id="next-btn">Next ⏭</button>
+            </div>
+        </div>
+
+        <div class="window">
+            <div class="title-bar">✏️ Writing Corner</div>
+            <div class="content">
+                <textarea placeholder="Write your thoughts..."></textarea>
+            </div>
+        </div>
+    </div> <div class="taskbar">
+        <span id="live-time">00:00:00</span>
+        <span>|</span>
+        <span id="live-date">Date</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
